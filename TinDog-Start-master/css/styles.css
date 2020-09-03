@@ -1,0 +1,167 @@
+#title {
+  background-color: #ff4c68;
+  padding: 40px ;
+}
+h1 {
+  font-family: "Montserrat-bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+h3 {
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+  color:  #8f8f8f;
+}
+body {
+  font-family: "Montserrat-bold";
+}
+head {
+  font-family: "Montserrat-bold";
+}
+.iphone-img {
+  transform: rotate(20deg);
+  margin-top: 25px;
+  width: 60%;
+  position: absolute;
+  right: 20%;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+/* nav bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+
+}
+.nav-item {
+  padding: 0 20px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+/* download-button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* font awesome images  */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.para-color {
+  color: #8f8f8f;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testimonial section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+
+}
+.testimonial-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing section */
+
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #f1f3de;
+
+
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.pricing-h2{
+  color: #000;
+}
+.free-card{
+  color: black;
+}
+
+/* media query */
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .iphone-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+/* cta section */
+#cta {
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 3%;
+}
+.cta-h3{
+  color: white;
+  padding-bottom: 2%;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 3rem;
+}
+/* footer section */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 2%
+}
+.footer-icon{
+  padding: 2%;
+
+}
+.foot-icon{
+  margin: 20px 10px ;
+}
+.para-element{
+  color:#8f8f8f;
+}
